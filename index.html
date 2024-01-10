@@ -7,8 +7,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tic Tac Toe</title>
   </head>
-  <body class="">
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam expedita voluptas temporibus corrupti minus quod doloremque ad ipsa, modi repellat sequi enim, laborum praesentium consequatur culpa similique, et officiis.</h2>
+  <body
+    class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto text-center"
+  >
+    <main class="text-white">
+      <h1 class="text-3xl md:text-5xl font-medium my-5">Tic-Tac-Toe</h1>
+      <div class="h-[70vh] flex justify-center items-center">
+        <div class="game flex flex-wrap justify-center items-center gap-1.5">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button
+        class="bg-gradient-to-r from-green-500 to-blue-600 hover:from-pink-500 hover:to-purple-500 px-3.5 py-2.5 text-xl md:text-3xl rounded-md"
+        id=""
+      >
+        Reset Game
+      </button>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>

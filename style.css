@@ -1,4 +1,22 @@
-body {
+* {
   margin: 0px;
   padding: 0px;
+}
+body {
+  background-color: #14213d;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  background-color: #e5e5e5;
+  color: #a4161a;
+  font-size: 8vmin;
 }
