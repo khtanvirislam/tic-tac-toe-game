@@ -8,11 +8,27 @@
     <title>Tic Tac Toe</title>
   </head>
   <body
-    class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto text-center"
+    class="text-white max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto text-center"
   >
-    <main class="text-white">
-      <h1 class="text-3xl md:text-5xl font-medium my-5">Tic-Tac-Toe</h1>
-      <div class="h-[70vh] flex justify-center items-center">
+    <div
+      class="msg-container my-5 flex justify-center items-center gap-5 hide"
+    >
+      <p
+        class="bg-gradient-to-r from-blue-500 to-blue-400 px-2 py-1 rounded-md font-medium text-lg"
+        id="winning-msg"
+      >
+        Winner:
+      </p>
+      <button
+        class="bg-gradient-to-r from-slate-500 to-slate-400 hover:from-pink-400 hover:to-purple-400 px-1.5 py-1 rounded-md text-lg"
+        id="new-btn"
+      >
+        New Game
+      </button>
+    </div>
+    <main class="">
+      <h1 class="text-3xl md:text-5xl font-medium">Let's Play</h1>
+      <div class="h-[65vh] flex justify-center items-center">
         <div class="game flex flex-wrap justify-center items-center gap-1.5">
           <button class="box"></button>
           <button class="box"></button>
@@ -23,7 +39,7 @@
           <button class="box"></button>
           <button class="box"></button>
           <button class="box"></button>
-        </div>git
+        </div>
       </div>
       <button
         class="bg-gradient-to-r from-green-500 to-blue-600 hover:from-pink-500 hover:to-purple-500 px-3.5 py-2.5 text-xl md:text-3xl rounded-md"

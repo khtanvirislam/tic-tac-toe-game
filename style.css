@@ -6,6 +6,10 @@ body {
   background-color: #14213d;
 }
 
+.hide {
+  display: none;
+}
+
 .game {
   height: 60vmin;
   width: 60vmin;
