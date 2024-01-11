@@ -2,10 +2,18 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background-color: #14213d;
 }
-
+.msg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
 .hide {
   display: none;
 }
